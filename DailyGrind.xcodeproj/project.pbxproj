@@ -14,6 +14,16 @@
 		09319FE127F4EE7100557705 /* DailyGrindTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09319FE027F4EE7100557705 /* DailyGrindTests.swift */; };
 		09319FEB27F4EE7100557705 /* DailyGrindUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09319FEA27F4EE7100557705 /* DailyGrindUITests.swift */; };
 		09319FED27F4EE7100557705 /* DailyGrindUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09319FEC27F4EE7100557705 /* DailyGrindUITestsLaunchTests.swift */; };
+		09319FFE27F4EF5000557705 /* WorkoutListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09319FFD27F4EF5000557705 /* WorkoutListScreen.swift */; };
+		0931A00127F4EF6F00557705 /* WorkoutModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 09319FFF27F4EF6F00557705 /* WorkoutModel.xcdatamodeld */; };
+		0931A00427F4F0F400557705 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0931A00327F4F0F400557705 /* Date.swift */; };
+		0931A00627F4F13000557705 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0931A00527F4F13000557705 /* View.swift */; };
+		0931A00927F4F28B00557705 /* AddWorkoutScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0931A00827F4F28B00557705 /* AddWorkoutScreen.swift */; };
+		0931A00C27F506B900557705 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0931A00B27F506B900557705 /* CoreDataManager.swift */; };
+		0931A00E27F527F600557705 /* AddWorkoutViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0931A00D27F527F600557705 /* AddWorkoutViewModel.swift */; };
+		0931A01027F6853400557705 /* WorkoutListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0931A00F27F6853400557705 /* WorkoutListViewModel.swift */; };
+		0931A01227F69F0F00557705 /* WorkoutCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0931A01127F69F0F00557705 /* WorkoutCell.swift */; };
+		0931A01427F6A52500557705 /* TrailingIconLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0931A01327F6A52500557705 /* TrailingIconLabelStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +54,16 @@
 		09319FE627F4EE7100557705 /* DailyGrindUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DailyGrindUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		09319FEA27F4EE7100557705 /* DailyGrindUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyGrindUITests.swift; sourceTree = "<group>"; };
 		09319FEC27F4EE7100557705 /* DailyGrindUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyGrindUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		09319FFD27F4EF5000557705 /* WorkoutListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutListScreen.swift; sourceTree = "<group>"; };
+		0931A00027F4EF6F00557705 /* WorkoutModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WorkoutModel.xcdatamodel; sourceTree = "<group>"; };
+		0931A00327F4F0F400557705 /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		0931A00527F4F13000557705 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		0931A00827F4F28B00557705 /* AddWorkoutScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWorkoutScreen.swift; sourceTree = "<group>"; };
+		0931A00B27F506B900557705 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		0931A00D27F527F600557705 /* AddWorkoutViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWorkoutViewModel.swift; sourceTree = "<group>"; };
+		0931A00F27F6853400557705 /* WorkoutListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutListViewModel.swift; sourceTree = "<group>"; };
+		0931A01127F69F0F00557705 /* WorkoutCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutCell.swift; sourceTree = "<group>"; };
+		0931A01327F6A52500557705 /* TrailingIconLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailingIconLabelStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +114,12 @@
 		09319FCE27F4EE6F00557705 /* DailyGrind */ = {
 			isa = PBXGroup;
 			children = (
+				0931A00227F4F0E100557705 /* Extensions */,
+				0931A00A27F506A300557705 /* Manager */,
+				09319FFB27F4EF0C00557705 /* Models */,
+				09319FFA27F4EEFD00557705 /* Views */,
+				09319FF927F4EEE700557705 /* ViewModel */,
 				09319FCF27F4EE6F00557705 /* DailyGrindApp.swift */,
-				09319FD127F4EE6F00557705 /* ContentView.swift */,
 				09319FD327F4EE7100557705 /* Assets.xcassets */,
 				09319FD527F4EE7100557705 /* Preview Content */,
 			);
@@ -125,6 +149,60 @@
 				09319FEC27F4EE7100557705 /* DailyGrindUITestsLaunchTests.swift */,
 			);
 			path = DailyGrindUITests;
+			sourceTree = "<group>";
+		};
+		09319FF927F4EEE700557705 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				0931A00D27F527F600557705 /* AddWorkoutViewModel.swift */,
+				0931A00F27F6853400557705 /* WorkoutListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		09319FFA27F4EEFD00557705 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				09319FD127F4EE6F00557705 /* ContentView.swift */,
+				09319FFC27F4EF2000557705 /* Screens */,
+				0931A01127F69F0F00557705 /* WorkoutCell.swift */,
+				0931A01327F6A52500557705 /* TrailingIconLabelStyle.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		09319FFB27F4EF0C00557705 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				09319FFF27F4EF6F00557705 /* WorkoutModel.xcdatamodeld */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		09319FFC27F4EF2000557705 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				09319FFD27F4EF5000557705 /* WorkoutListScreen.swift */,
+				0931A00827F4F28B00557705 /* AddWorkoutScreen.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		0931A00227F4F0E100557705 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0931A00327F4F0F400557705 /* Date.swift */,
+				0931A00527F4F13000557705 /* View.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		0931A00A27F506A300557705 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				0931A00B27F506B900557705 /* CoreDataManager.swift */,
+			);
+			path = Manager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +336,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				09319FD227F4EE6F00557705 /* ContentView.swift in Sources */,
+				0931A00E27F527F600557705 /* AddWorkoutViewModel.swift in Sources */,
+				0931A00427F4F0F400557705 /* Date.swift in Sources */,
+				0931A00627F4F13000557705 /* View.swift in Sources */,
+				0931A00127F4EF6F00557705 /* WorkoutModel.xcdatamodeld in Sources */,
+				0931A01227F69F0F00557705 /* WorkoutCell.swift in Sources */,
+				09319FFE27F4EF5000557705 /* WorkoutListScreen.swift in Sources */,
+				0931A01427F6A52500557705 /* TrailingIconLabelStyle.swift in Sources */,
+				0931A00927F4F28B00557705 /* AddWorkoutScreen.swift in Sources */,
+				0931A00C27F506B900557705 /* CoreDataManager.swift in Sources */,
+				0931A01027F6853400557705 /* WorkoutListViewModel.swift in Sources */,
 				09319FD027F4EE6F00557705 /* DailyGrindApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -583,6 +671,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		09319FFF27F4EF6F00557705 /* WorkoutModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0931A00027F4EF6F00557705 /* WorkoutModel.xcdatamodel */,
+			);
+			currentVersion = 0931A00027F4EF6F00557705 /* WorkoutModel.xcdatamodel */;
+			path = WorkoutModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 09319FC427F4EE6F00557705 /* Project object */;
 }

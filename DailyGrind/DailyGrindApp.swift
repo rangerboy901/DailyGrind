@@ -11,7 +11,7 @@ import SwiftUI
 struct DailyGrindApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            WorkoutListScreen()
         }
     }
 }
